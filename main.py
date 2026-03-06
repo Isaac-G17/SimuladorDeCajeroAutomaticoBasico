@@ -37,45 +37,30 @@ for i in range(Numero_Operaciones):
 
         print()
 
-        if monto > Saldo:
-            
-            print("Fondos insuficientes")
-        
-        elif monto <= Saldo and monto != 0:
-
-            print("Acabas de retirar", monto)
-            
-            print()
-
-            Saldo_Actual = Saldo - monto
-
-            print("Saldo actual es", Saldo_Actual )
-
-            print()
-        
-        else:
-            while monto <= 0:
+        while monto <= 0:
                 print("Monto equivocado, intente nuevamente")
 
                 monto = int(input("Cuanto va a retirar = "))
 
                 print()
 
-                if monto > Saldo:
+        if monto > Saldo:
             
-                    print("Fondos insuficientes")
+            print("Fondos insuficientes")
         
-                elif monto <= Saldo and monto != 0:
+        else:
+            
+            Saldo <= Saldo and monto != 0
 
-                    print("Acabas de retirar", monto)
-                    
-                    print()
+            print("Acabas de retirar", monto)
+            
+            print()
 
-                    Saldo_Actual = Saldo - monto
+            Saldo= Saldo - monto
 
-                    print("Saldo actual es", Saldo_Actual )
+            print("Saldo actual es", Saldo)
 
-                    print()
+            print()
     
     elif Operacion == 3:
 
@@ -84,16 +69,41 @@ for i in range(Numero_Operaciones):
         print ()
 
         while monto <= 0:
+                
                 print("Monto equivocado, intente nuevamente")
 
                 monto = int(input("Cuanto va a depositar = "))
 
                 print()
 
-                if monto > 0:
+        else: 
 
-                    Fondo = monto + Saldo
+            monto > 0
+
+            print()
+
+            Saldo = monto + Saldo
             
-                    print("El nuevo saldo es", Fondo)
+            print("El nuevo saldo es", Saldo)
 
-                print()
+            print()
+
+    else:
+        Operacion != (1 or 2 or 3)
+         
+        print("Opción inválida")      
+         
+
+else: 
+    
+    Operacion == (1 or 2 or 3)
+
+    print()        
+        
+    print("Gracias por usar el cajero automático")
+
+
+    
+        
+
+                
