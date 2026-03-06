@@ -25,6 +25,16 @@ for i in range(Numero_Operaciones):
 
     Operacion = int(input("Escoge la opcion a realizar = "))
 
+    while Operacion != (1 or 2 or 3):
+
+        print()
+         
+        print("Opción inválida") 
+
+        print()
+
+        Operacion = int(input("Intenta nuevamente = "))
+
     print()
 
     if Operacion == 1:
@@ -88,12 +98,6 @@ for i in range(Numero_Operaciones):
 
             print()
 
-    else:
-        Operacion != (1 or 2 or 3)
-         
-        print("Opción inválida")      
-         
-
 else: 
     
     Operacion == (1 or 2 or 3)
@@ -102,8 +106,4 @@ else:
         
     print("Gracias por usar el cajero automático")
 
-
-    
-        
-
-                
+    print()                
