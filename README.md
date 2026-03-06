@@ -17,5 +17,3 @@ El sistema permite realizar las siguientes operacion:
 ## Conocimientos usados
 
  - Fundamentos de Python
- 
-```
