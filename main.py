@@ -25,7 +25,7 @@ for i in range(Numero_Operaciones):
 
     Operacion = int(input("Escoge la opcion a realizar = "))
 
-    while Operacion != (1 or 2 or 3):
+    while Operacion not in (1, 2, 3):
 
         print()
          
