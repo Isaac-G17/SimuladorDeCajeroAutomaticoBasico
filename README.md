@@ -85,7 +85,15 @@ cd simulador-cajero-python
 ```bash
 python main.py
 ```
-----
+### ⚠️ Requisitos
+
+Para ejecutar este programa es necesario tener Python 3 instalado en el computador.
+
+Puedes descargarlo desde el sitio oficial:
+
+[Descargar Python](https://www.python.org/downloads/) 
+
+---
 
 ## 📌 Ejemplo de uso
 
